@@ -25,7 +25,10 @@ ui <- fluidPage(
   wellPanel(fluidRow(column(actionButton("Boton_1", "Da Click"),width = 3),
                      column(actionButton("Boton_2", "Da Click"),width = 3),
                      column(actionButton("Boton_3", "Da Click"),width = 3),
-                     column(actionButton("Boton_4", "Da Click"),width = 3)))
+                     column(actionButton("Boton_4", "Da Click"),width = 3))), 
+  hr(), 
+  wellPanel(column("hola", width = 6), 
+            column("chao", width = 3))
 
    
 )

@@ -33,12 +33,10 @@ server <- function(input, output) {
   
     output$salida_3 <- renderDT({
       iris
-      
     })
   
     output$salida_2 <- renderTable({
       summary(mtcars)
-      
     })
 
     output$distPlot <- renderPlot({
